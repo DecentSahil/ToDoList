@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1dd88d; /* Soft light background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .App {
+    background: #ffffff; /* White background for the app */
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .App:hover {
+    transform: scale(1.02);
+  }
+  
+  h1 {
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: calc(100% - 130px);
+    padding: 12px;
+    border: 2px solid #ced4da; /* Soft border */
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #007bff; /* Highlight on focus */
+  }
+  
+  button {
+    padding: 12px 15px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker on hover */
+    transform: translateY(-2px);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #e9ecef; /* Light gray background for list items */
+    border-radius: 8px;
+    margin: 8px 0;
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background: #dee2e6; /* Slightly darker on hover */
+  }
+  
+  li button {
+    background-color: #dc3545; /* Danger button for removal */
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+  
+  li button:hover {
+    background-color: #c82333; /* Darker on hover */
+    transform: translateY(-2px);
+  }
+  
